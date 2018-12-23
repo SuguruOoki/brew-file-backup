@@ -4,165 +4,162 @@
 tap homebrew/core
 brew apr
 brew apr-util
+brew argon2
 brew aspell
 brew autoconf
 brew automake
-brew aws-shell
+brew bash
 brew boost
-brew boost-build
+brew cairo
 brew cask
-brew cmake
-brew cocoapods
-brew composer
-brew cpanminus
-brew crf++
-brew curl
-brew dpkg
+brew clingo
+brew colordiff
+brew coreutils
 brew emacs
+brew exiftool
 brew fontconfig
 brew freetds
 brew freetype
+brew fribidi
+brew fzf
+brew gawk
 brew gd
 brew gdbm
-brew geckodriver
+brew gdk-pixbuf
 brew gettext
 brew ghq
+brew gibo
 brew git
 brew glib
-brew glide
+brew global
 brew gmp
-brew gnu-tar
 brew gnutls
 brew go
-brew gpatch
-brew gperftools
+brew graphite2
 brew graphviz
-brew heroku
-brew httpie
-brew httrack
+brew gzip
+brew harfbuzz
 brew hub
-brew hugo
-brew hyper
 brew icu4c
-brew ideviceinstaller
 brew imagemagick
-brew ios-deploy
-brew jasper
+brew imagemagick@6
 brew jemalloc
 brew jpeg
+brew jq
+brew libcroco
 brew libevent
 brew libffi
-brew libgphoto2
-brew libicns --universal
+brew libidn
 brew libidn2
-brew libimobiledevice
-brew libplist
 brew libpng
 brew libpq
+brew librsvg
+brew libsodium
 brew libtasn1
 brew libtermkey
 brew libtiff
-brew libtool --universal
+brew libtool
 brew libunistring
-brew libusb
-brew libusb-compat
 brew libuv
 brew libvterm
-brew libxml2
 brew libyaml
 brew libzip
-brew little-cms2
+brew lua
 brew luajit
-brew makedepend
 brew mas
 brew mcrypt
-brew mecab
-brew mecab-ipadic
 brew mhash
+brew mpfr
 brew msgpack
+brew mysql
 brew neovim
-brew net-snmp
 brew nettle
 brew nkf
 brew node
+brew nodebrew
+brew oniguruma
 brew openssl
 brew p11-kit
+brew pango
 brew pcre
+brew pcre2
 brew peco
 brew perl
-brew phantomjs
-brew php@7.0
+brew php
+brew php-cs-fixer
+brew phpunit
+brew pixman
 brew pkg-config
-brew pngquant
-brew postgresql
+brew pwgen
 brew pyenv
-brew pyenv-virtualenv
 brew python
 brew python@2
-brew rbenv
 brew readline
+brew rename
 brew ruby
-brew ruby-build
-brew sane-backends
-brew sphinx-doc
+brew skipfish
 brew sqlite
+brew terminal-notifier
 brew the_silver_searcher
+brew tidy-html5
+brew tmux
 brew tree
 brew unibilium
 brew unixodbc
-brew usbmuxd
+brew vim
 brew watchman
 brew webp
 brew wget
-brew wine
 brew xz
 brew zsh
 
-tap homebrew/cask-fonts
-cask font-source-code-pro-for-powerline
-
-tap homebrew/cask-versions
-
-tap homebrew/php
-
-tap homebrew/services
+tap homebrew/bundle
 
 tap homebrew/cask
-cask atom
+cask hyper
 cask java
+cask oni
+cask vagrant
 
-tap classmethod/repos
-brew aurl
+tap argon/mas
+
+tap d12frosted/emacs-plus
+brew emacs-plus
 
 tap dart-lang/dart
 brew dart
 
 tap heroku/brew
+brew heroku
 brew heroku-node
 
 tap itchyny/rexdep
 brew rexdep
 
-tap neovim/neovim
-
 tap rcmdnk/file
 brew brew-file
 
+tap saulpw/vd
+brew visidata
+
+tap suin/suin
+brew git-remind
+
+tap universal-ctags/universal-ctags
+brew universal-ctags --HEAD
+
 # Other Homebrew packages
-brew chromedriver
+brew php@7.0
 
 # Other Cask applications
 cask iterm2
-cask xquartz
+cask mysqlworkbench
+cask spectacle
+cask virtualbox
 
 # App Store applications
-appstore 1287239339 ColorSlurp (1.4.0)
-appstore 406056744 Evernote (7.1.1)
-appstore 682658836 GarageBand (10.2.0)
-appstore 408981434 iMovie (10.1.9)
-appstore 409183694 Keynote (8.0.1)
-appstore 405399194 Kindle (1.23.3)
-appstore 539883307 LINE (5.7.0)
-appstore 409203825 Numbers (5.0.1)
-appstore 409201541 Pages (7.0.1)
-appstore 497799835 Xcode (9.3.1)
+appstore 682658836 GarageBand
+appstore 408981434 iMovie
+appstore 409183694 Keynote
+appstore 409203825 Numbers
+appstore 409201541 Pages
